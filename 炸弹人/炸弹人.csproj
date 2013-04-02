@@ -72,6 +72,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Elements\Bomb.cs" />
+    <Compile Include="Elements\Flame.cs" />
+    <Compile Include="Elements\Item.cs" />
+    <Compile Include="Elements\Map.cs" />
+    <Compile Include="Elements\Player.cs" />
+    <Compile Include="Elements\Wall.cs" />
     <Compile Include="Elements\Cell.cs" />
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
@@ -79,6 +85,7 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Global\GameLogic.cs" />
     <Compile Include="Global\GlobalDef.cs" />
     <Compile Include="Global\LuaAPI.cs" />
     <Compile Include="Program.cs" />
@@ -106,12 +113,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Block\Block.csproj">
-      <Project>{FD7CEBDF-5F02-4E33-A10C-03A4167008AD}</Project>
-      <Name>Block</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -147,6 +148,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Main.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Block\炸弹人格子.csproj">
+      <Project>{FD7CEBDF-5F02-4E33-A10C-03A4167008AD}</Project>
+      <Name>炸弹人格子</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

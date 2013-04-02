@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "炸弹人", "炸弹人\炸�
 		{FD7CEBDF-5F02-4E33-A10C-03A4167008AD} = {FD7CEBDF-5F02-4E33-A10C-03A4167008AD}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Block", "Block\Block.csproj", "{FD7CEBDF-5F02-4E33-A10C-03A4167008AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "炸弹人格子", "Block\炸弹人格子.csproj", "{FD7CEBDF-5F02-4E33-A10C-03A4167008AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

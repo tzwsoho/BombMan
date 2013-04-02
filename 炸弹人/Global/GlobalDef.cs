@@ -6,10 +6,12 @@ namespace 炸弹人.Global
     enum enCellType
     {
         enCellType_None,                    // 没有放置元素
+        enCellType_Unused,                  // 没有使用
         enCellType_Player,                  // 玩家
         enCellType_Wall,                    // 墙体
         enCellType_Bomb,                    // 炸弹
         enCellType_Item,                    // 物品
+        enCellType_Flame,                   // 火焰
     }
 
     // 墙体类型

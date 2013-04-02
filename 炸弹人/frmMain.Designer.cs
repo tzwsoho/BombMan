@@ -39,7 +39,7 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.lblStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.pnlBack = new System.Windows.Forms.Panel();
-            this.blcElemt = new Block.Block();
+            this.block1 = new 炸弹人格子.Block();
             this.mnuMain.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.pnlBack.SuspendLayout();
@@ -121,20 +121,21 @@
             // 
             // pnlBack
             // 
-            this.pnlBack.Controls.Add(this.blcElemt);
+            this.pnlBack.BackColor = System.Drawing.Color.White;
+            this.pnlBack.Controls.Add(this.block1);
             this.pnlBack.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlBack.Location = new System.Drawing.Point(0, 24);
             this.pnlBack.Name = "pnlBack";
             this.pnlBack.Size = new System.Drawing.Size(592, 379);
             this.pnlBack.TabIndex = 2;
             // 
-            // blcElemt
+            // block1
             // 
-            this.blcElemt.Location = new System.Drawing.Point(3, 3);
-            this.blcElemt.MyProperty = 0;
-            this.blcElemt.Name = "blcElemt";
-            this.blcElemt.Size = new System.Drawing.Size(64, 64);
-            this.blcElemt.TabIndex = 0;
+            this.block1.BackColor = System.Drawing.Color.LemonChiffon;
+            this.block1.Location = new System.Drawing.Point(3, 3);
+            this.block1.Name = "block1";
+            this.block1.Size = new System.Drawing.Size(150, 150);
+            this.block1.TabIndex = 1;
             // 
             // frmMain
             // 
@@ -171,7 +172,7 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel lblStatus;
         private System.Windows.Forms.Panel pnlBack;
-        private Block.Block blcElemt;
+        private 炸弹人格子.Block block1;
     }
 }
 

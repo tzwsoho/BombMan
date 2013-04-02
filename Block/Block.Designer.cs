@@ -1,4 +1,4 @@
-﻿namespace Block
+﻿namespace 炸弹人格子
 {
     partial class Block
     {
@@ -34,7 +34,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Transparent;
+            this.BackColor = System.Drawing.Color.LemonChiffon;
             this.Name = "Block";
             this.ResumeLayout(false);
 

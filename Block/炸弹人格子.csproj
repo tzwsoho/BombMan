@@ -8,8 +8,8 @@
     <ProjectGuid>{FD7CEBDF-5F02-4E33-A10C-03A4167008AD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Block</RootNamespace>
-    <AssemblyName>Block</AssemblyName>
+    <RootNamespace>炸弹人格子</RootNamespace>
+    <AssemblyName>炸弹人格子</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ApplicationIcon>Block.ico</ApplicationIcon>
@@ -50,9 +50,7 @@
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Block.ico" />
-  </ItemGroup>
-  <ItemGroup>
+    <EmbeddedResource Include="Block.ico" />
     <EmbeddedResource Include="Block.resx">
       <DependentUpon>Block.cs</DependentUpon>
     </EmbeddedResource>

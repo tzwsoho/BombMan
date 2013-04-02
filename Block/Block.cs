@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
-namespace Block
+namespace 炸弹人格子
 {
+    [ToolboxBitmap(typeof(Block), "Block.ico")]
     public partial class Block : UserControl
     {
         public Block()
