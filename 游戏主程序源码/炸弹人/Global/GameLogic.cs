@@ -32,6 +32,10 @@ namespace 炸弹人.Global
                 {
                     cell = new Wall(i % nWidth, i / nWidth);
                 }
+                else if (szMap[i] == '2') // 怪物
+                {
+                    cell = new Monster(i % nWidth, i / nWidth);
+                }
 
                 m_Map.Cells.Add(cell);
             }

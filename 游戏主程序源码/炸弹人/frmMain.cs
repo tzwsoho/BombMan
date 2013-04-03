@@ -32,7 +32,7 @@ namespace 炸弹人
         {
             const string szAbout = "炸弹人\n\n制作人：TZWSOHO\n" +
                                    "制作日期：2013-04-02\n\n" +
-                                   "本游戏采用 C# + Lua 脚本设计，源码可用 Git 在以下地址下载：\n" +
+                                   "本游戏采用 C# 2008 + Lua 5.1 脚本设计，源码可用 Git 在以下地址下载：\n" +
                                    "https://github.com/tzwsoho/BombMan.git";
             MessageBox.Show(szAbout, "关于炸弹人 ...");
         }
