@@ -31,8 +31,8 @@ namespace 炸弹人.Global
             "DestroyWallAtPoint",                       // 将某点的墙体摧毁
 
             // 火焰
-            "GetFireLength",                            // 获取火焰长度(无限 == -1)
-            "SetFireLength",                            // 设置火焰长度(无限 == -1)
+            "GetFireLength",                            // 获取火焰长度(无限 == 0)
+            "SetFireLength",                            // 设置火焰长度(无限 == 0)
 
             // 炸弹
             "GetLeftBombCount",                         // 获取剩余可放置的炸弹数量
@@ -155,7 +155,7 @@ namespace 炸弹人.Global
 
         static public int GetFireLength()
         {
-            return 0;
+            return -1;
         }
 
         static public bool SetFireLength(int nLength)

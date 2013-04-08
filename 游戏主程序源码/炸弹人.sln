@@ -2,11 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "炸弹人", "炸弹人\炸弹人.csproj", "{86C42E1F-198C-4EC3-BCDA-DBD81FF13691}"
-	ProjectSection(ProjectDependencies) = postProject
-		{FD7CEBDF-5F02-4E33-A10C-03A4167008AD} = {FD7CEBDF-5F02-4E33-A10C-03A4167008AD}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "炸弹人格子", "Block\炸弹人格子.csproj", "{FD7CEBDF-5F02-4E33-A10C-03A4167008AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,10 +13,6 @@ Global
 		{86C42E1F-198C-4EC3-BCDA-DBD81FF13691}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86C42E1F-198C-4EC3-BCDA-DBD81FF13691}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86C42E1F-198C-4EC3-BCDA-DBD81FF13691}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FD7CEBDF-5F02-4E33-A10C-03A4167008AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD7CEBDF-5F02-4E33-A10C-03A4167008AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD7CEBDF-5F02-4E33-A10C-03A4167008AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD7CEBDF-5F02-4E33-A10C-03A4167008AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

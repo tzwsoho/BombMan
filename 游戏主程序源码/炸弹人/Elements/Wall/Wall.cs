@@ -9,13 +9,15 @@ namespace 炸弹人.Elements
     /// </summary>
     class Wall : Cell
     {
-        public Wall(int nX, int nY) : base(nX, nY)
+        public Wall(LogicCoord coord) : base(coord)
         {
             m_nCellType = enCellType.enCellType_Wall;
         }
 
-        override protected void OnDraw()
+        override protected void OnDraw(Graphics grp)
         {
+            base.OnDraw(grp);
+
 
         }
     }

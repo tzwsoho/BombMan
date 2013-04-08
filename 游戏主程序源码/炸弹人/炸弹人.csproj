@@ -151,10 +151,245 @@
     <None Include="Main.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Block\炸弹人格子.csproj">
-      <Project>{FD7CEBDF-5F02-4E33-A10C-03A4167008AD}</Project>
-      <Name>炸弹人格子</Name>
-    </ProjectReference>
+    <EmbeddedResource Include="Icons\Item\物品_火焰.ico" />
+    <Resource Include="Icons\Item\物品_炸弹.ico" />
+    <EmbeddedResource Include="Icons\Item\物品_穿墙.ico" />
+    <EmbeddedResource Include="Icons\Item\物品_穿炸弹.ico" />
+    <EmbeddedResource Include="Icons\Item\物品_遥控炸弹.ico" />
+    <EmbeddedResource Include="Icons\Item\物品_鞋子.ico" />
+    <EmbeddedResource Include="Icons\Wall\墙体_墙.ico" />
+    <EmbeddedResource Include="Icons\Wall\墙体_砖块.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_上_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_上_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_上_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_死亡_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_死亡_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_死亡_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_死亡_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_死亡_5.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_死亡_6.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_下_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_下_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_下_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_右_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_右_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_右_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_左_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_左_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1_左_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_上_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_上_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_上_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_死亡_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_死亡_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_死亡_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_死亡_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_死亡_5.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_死亡_6.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_下_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_下_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_下_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_右_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_右_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_右_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_左_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_左_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2_左_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Wall\墙体_出口.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Wall\砖块_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Wall\砖块_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Wall\砖块_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Wall\砖块_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Wall\砖块_5.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Wall\砖块_6.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Player\玩家2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Bomb\炸弹_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Bomb\炸弹_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Bomb\炸弹_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_上_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_上_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_上_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_上_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_上下_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_上下_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_上下_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_上下_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_下_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_下_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_下_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_下_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_右_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_右_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_右_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_右_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_中_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_中_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_中_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_中_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_左_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_左_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_左_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_左_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_左右_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_左右_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_左右_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\Flame\火焰_左右_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Icons\Monster\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

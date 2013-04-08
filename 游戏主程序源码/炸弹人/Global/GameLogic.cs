@@ -25,19 +25,19 @@ namespace 炸弹人.Global
                 Cell cell = null;
                 if (szMap[i] == '0') // 可行走区域
                 {
-                    cell = new Cell(i % nWidth, i / nWidth);
+                    cell = new Cell(new LogicCoord(i % nWidth, i / nWidth));
                     cell.CellType = enCellType.enCellType_None;
                 }
                 else if (szMap[i] == '1') // 墙体
                 {
-                    cell = new Wall(i % nWidth, i / nWidth);
+                    cell = new Wall(new LogicCoord(i % nWidth, i / nWidth));
                 }
                 else if (szMap[i] == '2') // 怪物
                 {
-                    cell = new Monster(i % nWidth, i / nWidth);
+                    cell = new Monster(new LogicCoord(i % nWidth, i / nWidth));
                 }
 
-                m_Map.Cells.Add(cell);
+                m_Map.Cells.Add(cell.CurCoord, cell);
             }
 
             m_Map.Width = nWidth;

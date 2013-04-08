@@ -66,5 +66,593 @@ namespace 炸弹人.Properties {
                 return ((System.Drawing.Icon)(obj));
             }
         }
+        
+        public static System.Drawing.Icon 墙体_出口 {
+            get {
+                object obj = ResourceManager.GetObject("墙体_出口", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 墙体_墙 {
+            get {
+                object obj = ResourceManager.GetObject("墙体_墙", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 墙体_砖块 {
+            get {
+                object obj = ResourceManager.GetObject("墙体_砖块", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_上_1 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_上_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_上_2 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_上_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_上_3 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_上_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_上_4 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_上_4", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_上下_1 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_上下_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_上下_2 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_上下_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_上下_3 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_上下_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_上下_4 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_上下_4", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_下_1 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_下_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_下_2 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_下_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_下_3 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_下_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_下_4 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_下_4", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_中_1 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_中_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_中_2 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_中_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_中_3 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_中_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_中_4 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_中_4", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_右_1 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_右_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_右_2 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_右_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_右_3 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_右_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_右_4 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_右_4", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_左_1 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_左_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_左_2 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_左_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_左_3 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_左_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_左_4 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_左_4", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_左右_1 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_左右_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_左右_2 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_左右_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_左右_3 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_左右_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 火焰_左右_4 {
+            get {
+                object obj = ResourceManager.GetObject("火焰_左右_4", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 炸弹_1 {
+            get {
+                object obj = ResourceManager.GetObject("炸弹_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 炸弹_2 {
+            get {
+                object obj = ResourceManager.GetObject("炸弹_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 炸弹_3 {
+            get {
+                object obj = ResourceManager.GetObject("炸弹_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 物品_火焰 {
+            get {
+                object obj = ResourceManager.GetObject("物品_火焰", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 物品_炸弹 {
+            get {
+                object obj = ResourceManager.GetObject("物品_炸弹", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 物品_穿墙 {
+            get {
+                object obj = ResourceManager.GetObject("物品_穿墙", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 物品_穿炸弹 {
+            get {
+                object obj = ResourceManager.GetObject("物品_穿炸弹", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 物品_遥控炸弹 {
+            get {
+                object obj = ResourceManager.GetObject("物品_遥控炸弹", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 物品_鞋子 {
+            get {
+                object obj = ResourceManager.GetObject("物品_鞋子", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap 玩家1 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_上_1 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_上_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_上_2 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_上_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_上_3 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_上_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_下_1 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_下_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_下_2 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_下_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_下_3 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_下_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_右_1 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_右_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_右_2 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_右_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_右_3 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_右_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_左_1 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_左_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_左_2 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_左_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_左_3 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_左_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_死亡_1 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_死亡_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_死亡_2 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_死亡_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_死亡_3 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_死亡_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_死亡_4 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_死亡_4", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_死亡_5 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_死亡_5", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家1_死亡_6 {
+            get {
+                object obj = ResourceManager.GetObject("玩家1_死亡_6", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap 玩家2 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_上_1 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_上_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_上_2 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_上_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_上_3 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_上_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_下_1 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_下_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_下_2 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_下_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_下_3 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_下_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_右_1 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_右_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_右_2 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_右_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_右_3 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_右_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_左_1 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_左_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_左_2 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_左_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_左_3 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_左_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_死亡_1 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_死亡_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_死亡_2 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_死亡_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_死亡_3 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_死亡_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_死亡_4 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_死亡_4", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_死亡_5 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_死亡_5", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 玩家2_死亡_6 {
+            get {
+                object obj = ResourceManager.GetObject("玩家2_死亡_6", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 砖块_1 {
+            get {
+                object obj = ResourceManager.GetObject("砖块_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 砖块_2 {
+            get {
+                object obj = ResourceManager.GetObject("砖块_2", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 砖块_3 {
+            get {
+                object obj = ResourceManager.GetObject("砖块_3", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 砖块_4 {
+            get {
+                object obj = ResourceManager.GetObject("砖块_4", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 砖块_5 {
+            get {
+                object obj = ResourceManager.GetObject("砖块_5", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        public static System.Drawing.Icon 砖块_6 {
+            get {
+                object obj = ResourceManager.GetObject("砖块_6", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
     }
 }

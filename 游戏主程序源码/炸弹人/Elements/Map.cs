@@ -1,18 +1,23 @@
 ﻿using System;
+using System.Drawing;
 using System.Collections;
 using System.Collections.Generic;
+using System.Windows.Forms;
 using 炸弹人.Elements;
+using 炸弹人.Global;
 
 namespace 炸弹人.Elements
 {
     /// <summary>
-    /// 当前关卡地图
+    /// 当前关卡逻辑地图
     /// </summary>
     class Map
     {
+        #region 属性
+
         // 所有格子
-        private List<Cell> m_AllCells = new List<Cell>();
-        public List<Cell> Cells
+        private Dictionary<LogicCoord, Cell> m_AllCells = new Dictionary<LogicCoord, Cell>();
+        public Dictionary<LogicCoord, Cell> Cells
         {
             get
             {
@@ -21,8 +26,8 @@ namespace 炸弹人.Elements
         }
 
         // 当前可视格子
-        private List<Cell> m_VisibleCells = new List<Cell>();
-        public List<Cell> VisibleCells
+        private Dictionary<LogicCoord, Cell> m_VisibleCells = new Dictionary<LogicCoord, Cell>();
+        public Dictionary<LogicCoord, Cell> VisibleCells
         {
             get
             {
@@ -94,5 +99,42 @@ namespace 炸弹人.Elements
                 return m_nHeight;
             }
         }
+
+        #endregion
+
+        #region 事件
+
+        public bool OnMove(Cell cell)
+        {
+            switch (cell.CellType)
+            {
+                case enCellType.enCellType_Player: // 玩家
+
+                    break;
+
+                case enCellType.enCellType_Monster: // 怪物
+
+                    break;
+
+                default: // 其它格子没有移动事件
+                    return false;
+            }
+
+            return true;
+        }
+
+        #endregion
+
+        #region UI 相关函数
+
+        static public void OnDraw(Panel pnlSrc)
+        {
+            Graphics grp = Graphics.FromHwnd(pnlSrc.Handle);
+            grp.CopyFromScreen(0, 0, 640, 480, pnlSrc.Size);
+
+
+        }
+
+        #endregion
     }
 }

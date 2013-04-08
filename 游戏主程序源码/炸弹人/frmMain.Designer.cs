@@ -39,10 +39,8 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.lblStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.pnlBack = new System.Windows.Forms.Panel();
-            this.block1 = new 炸弹人格子.Block();
             this.mnuMain.SuspendLayout();
             this.statusStrip1.SuspendLayout();
-            this.pnlBack.SuspendLayout();
             this.SuspendLayout();
             // 
             // mnuMain
@@ -69,6 +67,7 @@
             // 
             // miOne
             // 
+            this.miOne.Image = global::炸弹人.Properties.Resources.玩家1;
             this.miOne.Name = "miOne";
             this.miOne.ShortcutKeys = System.Windows.Forms.Keys.F2;
             this.miOne.Size = new System.Drawing.Size(153, 22);
@@ -77,6 +76,7 @@
             // 
             // miTwo
             // 
+            this.miTwo.Image = global::炸弹人.Properties.Resources.玩家2;
             this.miTwo.Name = "miTwo";
             this.miTwo.ShortcutKeys = System.Windows.Forms.Keys.F3;
             this.miTwo.Size = new System.Drawing.Size(153, 22);
@@ -116,26 +116,17 @@
             // lblStatus
             // 
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(161, 17);
-            this.lblStatus.Text = "骚年，点击F2/F3来一发吧...";
+            this.lblStatus.Size = new System.Drawing.Size(167, 17);
+            this.lblStatus.Text = "F2 - 单人游戏/F3 - 双人游戏";
             // 
             // pnlBack
             // 
             this.pnlBack.BackColor = System.Drawing.Color.White;
-            this.pnlBack.Controls.Add(this.block1);
             this.pnlBack.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlBack.Location = new System.Drawing.Point(0, 24);
             this.pnlBack.Name = "pnlBack";
             this.pnlBack.Size = new System.Drawing.Size(592, 379);
             this.pnlBack.TabIndex = 2;
-            // 
-            // block1
-            // 
-            this.block1.BackColor = System.Drawing.Color.LemonChiffon;
-            this.block1.Location = new System.Drawing.Point(3, 3);
-            this.block1.Name = "block1";
-            this.block1.Size = new System.Drawing.Size(150, 150);
-            this.block1.TabIndex = 1;
             // 
             // frmMain
             // 
@@ -154,7 +145,6 @@
             this.mnuMain.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
-            this.pnlBack.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,7 +162,6 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel lblStatus;
         private System.Windows.Forms.Panel pnlBack;
-        private 炸弹人格子.Block block1;
     }
 }
 

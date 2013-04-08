@@ -9,14 +9,16 @@ namespace 炸弹人.Elements
     /// </summary>
     class Flame : Cell
     {
-        public Flame(int nX, int nY) : base(nX, nY)
+        public Flame(LogicCoord coord) : base(coord)
         {
             m_nCellType = enCellType.enCellType_Flame;
         }
 
-        override protected void OnDraw()
+        override protected void OnDraw(Graphics grp)
         {
-            
+            base.OnDraw(grp);
+
+           
         }
     }
 }
