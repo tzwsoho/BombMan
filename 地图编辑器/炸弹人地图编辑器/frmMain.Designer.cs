@@ -30,26 +30,27 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("指针");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("墙");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("砖");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("出口");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("洼地");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("墙体", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("出生点");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("墙");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("砖");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("出口");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("洼地");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("墙体", new System.Windows.Forms.TreeNode[] {
             treeNode2,
             treeNode3,
             treeNode4,
-            treeNode5});
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("火焰");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("炸弹");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("鞋子");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("护甲");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("穿越炸弹");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("穿越墙体");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("遥控炸弹");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("生命");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("无敌");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("物品", new System.Windows.Forms.TreeNode[] {
-            treeNode7,
+            treeNode5,
+            treeNode6});
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("火焰");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("炸弹");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("鞋子");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("护甲");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("穿越炸弹");
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("穿越墙体");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("遥控炸弹");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("生命");
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("无敌");
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("物品", new System.Windows.Forms.TreeNode[] {
             treeNode8,
             treeNode9,
             treeNode10,
@@ -57,18 +58,18 @@
             treeNode12,
             treeNode13,
             treeNode14,
-            treeNode15});
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("怪物1");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("怪物2");
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("怪物3");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("怪物4");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("怪物5");
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("怪物6");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("怪物7");
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("怪物8");
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("怪物9");
-            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("怪物", new System.Windows.Forms.TreeNode[] {
-            treeNode17,
+            treeNode15,
+            treeNode16});
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("怪物1");
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("怪物2");
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("怪物3");
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("怪物4");
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("怪物5");
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("怪物6");
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("怪物7");
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("怪物8");
+            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("怪物9");
+            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("怪物", new System.Windows.Forms.TreeNode[] {
             treeNode18,
             treeNode19,
             treeNode20,
@@ -76,19 +77,20 @@
             treeNode22,
             treeNode23,
             treeNode24,
-            treeNode25});
+            treeNode25,
+            treeNode26});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.mnuMain = new System.Windows.Forms.MenuStrip();
             this.miMap = new System.Windows.Forms.ToolStripMenuItem();
             this.miNew = new System.Windows.Forms.ToolStripMenuItem();
-            this.miAbout = new System.Windows.Forms.ToolStripMenuItem();
-            this.miExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.miOpen = new System.Windows.Forms.ToolStripMenuItem();
+            this.miSave = new System.Windows.Forms.ToolStripMenuItem();
+            this.miSaveAs = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.miExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.miAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.lblStatus = new System.Windows.Forms.ToolStripStatusLabel();
-            this.miSave = new System.Windows.Forms.ToolStripMenuItem();
-            this.miOpen = new System.Windows.Forms.ToolStripMenuItem();
-            this.miSaveAs = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.tvwTools = new System.Windows.Forms.TreeView();
@@ -134,12 +136,37 @@
             this.miNew.Text = "新建(&N)";
             this.miNew.Click += new System.EventHandler(this.miNew_Click);
             // 
-            // miAbout
+            // miOpen
             // 
-            this.miAbout.Name = "miAbout";
-            this.miAbout.Size = new System.Drawing.Size(77, 20);
-            this.miAbout.Text = "关于(&A)...";
-            this.miAbout.Click += new System.EventHandler(this.miAbout_Click);
+            this.miOpen.Name = "miOpen";
+            this.miOpen.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.miOpen.Size = new System.Drawing.Size(189, 22);
+            this.miOpen.Text = "打开(&O)";
+            this.miOpen.Click += new System.EventHandler(this.miOpen_Click);
+            // 
+            // miSave
+            // 
+            this.miSave.Enabled = false;
+            this.miSave.Name = "miSave";
+            this.miSave.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.miSave.Size = new System.Drawing.Size(189, 22);
+            this.miSave.Text = "保存(&S)";
+            this.miSave.Click += new System.EventHandler(this.miSave_Click);
+            // 
+            // miSaveAs
+            // 
+            this.miSaveAs.Enabled = false;
+            this.miSaveAs.Name = "miSaveAs";
+            this.miSaveAs.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt)
+                        | System.Windows.Forms.Keys.S)));
+            this.miSaveAs.Size = new System.Drawing.Size(189, 22);
+            this.miSaveAs.Text = "另存为(&A)";
+            this.miSaveAs.Click += new System.EventHandler(this.miSaveAs_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(186, 6);
             // 
             // miExit
             // 
@@ -149,10 +176,12 @@
             this.miExit.Text = "退出(&E)";
             this.miExit.Click += new System.EventHandler(this.miExit_Click);
             // 
-            // toolStripSeparator1
+            // miAbout
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(186, 6);
+            this.miAbout.Name = "miAbout";
+            this.miAbout.Size = new System.Drawing.Size(77, 20);
+            this.miAbout.Text = "关于(&A)...";
+            this.miAbout.Click += new System.EventHandler(this.miAbout_Click);
             // 
             // statusStrip1
             // 
@@ -168,33 +197,6 @@
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(47, 17);
             this.lblStatus.Text = "就绪...";
-            // 
-            // miSave
-            // 
-            this.miSave.Enabled = false;
-            this.miSave.Name = "miSave";
-            this.miSave.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.miSave.Size = new System.Drawing.Size(189, 22);
-            this.miSave.Text = "保存(&S)";
-            this.miSave.Click += new System.EventHandler(this.miSave_Click);
-            // 
-            // miOpen
-            // 
-            this.miOpen.Name = "miOpen";
-            this.miOpen.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.miOpen.Size = new System.Drawing.Size(189, 22);
-            this.miOpen.Text = "打开(&O)";
-            this.miOpen.Click += new System.EventHandler(this.miOpen_Click);
-            // 
-            // miSaveAs
-            // 
-            this.miSaveAs.Enabled = false;
-            this.miSaveAs.Name = "miSaveAs";
-            this.miSaveAs.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt)
-                        | System.Windows.Forms.Keys.S)));
-            this.miSaveAs.Size = new System.Drawing.Size(189, 22);
-            this.miSaveAs.Text = "另存为(&A)";
-            this.miSaveAs.Click += new System.EventHandler(this.miSaveAs_Click);
             // 
             // splitContainer1
             // 
@@ -243,107 +245,109 @@
             treeNode1.Name = "指针";
             treeNode1.SelectedImageKey = "指针.ico";
             treeNode1.Text = "指针";
-            treeNode2.ImageKey = "墙体_墙.ico";
-            treeNode2.Name = "墙";
-            treeNode2.SelectedImageKey = "墙体_墙.ico";
-            treeNode2.Text = "墙";
-            treeNode2.ToolTipText = "不可炸毁，不可穿越";
-            treeNode3.ImageKey = "墙体_砖块.ico";
-            treeNode3.Name = "砖";
-            treeNode3.SelectedImageKey = "墙体_砖块.ico";
-            treeNode3.Text = "砖";
-            treeNode3.ToolTipText = "可炸毁，不可穿越(通常状态)";
-            treeNode4.ImageKey = "墙体_出口.ico";
-            treeNode4.Name = "出口";
-            treeNode4.SelectedImageKey = "墙体_出口.ico";
-            treeNode4.Text = "出口";
-            treeNode5.ForeColor = System.Drawing.SystemColors.GrayText;
-            treeNode5.Name = "洼地";
-            treeNode5.Text = "洼地";
-            treeNode5.ToolTipText = "穿越时减速，不可炸毁，可以穿越";
-            treeNode6.ImageKey = "墙体.ico";
-            treeNode6.Name = "墙体";
-            treeNode6.SelectedImageKey = "墙体.ico";
-            treeNode6.Text = "墙体";
-            treeNode7.ImageKey = "物品_火焰.ico";
-            treeNode7.Name = "火焰";
-            treeNode7.SelectedImageKey = "物品_火焰.ico";
-            treeNode7.Text = "火焰";
-            treeNode7.ToolTipText = "火焰长度 + 1";
-            treeNode8.ImageKey = "物品_炸弹.ico";
-            treeNode8.Name = "炸弹";
-            treeNode8.SelectedImageKey = "物品_炸弹.ico";
-            treeNode8.Text = "炸弹";
-            treeNode8.ToolTipText = "可放置炸弹数量 + 1";
-            treeNode9.ImageKey = "物品_鞋子.ico";
-            treeNode9.Name = "鞋子";
-            treeNode9.SelectedImageKey = "物品_鞋子.ico";
-            treeNode9.Text = "鞋子";
-            treeNode9.ToolTipText = "行走速度增加";
-            treeNode10.Name = "护甲";
-            treeNode10.Text = "护甲";
-            treeNode10.ToolTipText = "可免疫一次死亡";
-            treeNode11.ImageKey = "物品_穿炸弹.ico";
-            treeNode11.Name = "穿越炸弹";
-            treeNode11.SelectedImageKey = "物品_穿炸弹.ico";
-            treeNode11.Text = "穿越炸弹";
-            treeNode11.ToolTipText = "玩家可以穿越炸弹行走";
-            treeNode12.ImageKey = "物品_穿墙.ico";
-            treeNode12.Name = "穿越墙体";
-            treeNode12.SelectedImageKey = "物品_穿墙.ico";
-            treeNode12.Text = "穿越墙体";
-            treeNode12.ToolTipText = "玩家可以穿越砖块行走";
-            treeNode13.ImageKey = "物品_遥控炸弹.ico";
-            treeNode13.Name = "遥控炸弹";
-            treeNode13.SelectedImageKey = "物品_遥控炸弹.ico";
-            treeNode13.Text = "遥控炸弹";
-            treeNode13.ToolTipText = "玩家可以在放置炸弹后按放置顺序手动引爆";
-            treeNode14.Name = "生命";
-            treeNode14.Text = "生命";
-            treeNode14.ToolTipText = "玩家生命数量 + 1";
-            treeNode15.Name = "无敌";
-            treeNode15.Text = "无敌";
-            treeNode15.ToolTipText = "玩家本局无敌状态";
-            treeNode16.ImageKey = "物品.ico";
-            treeNode16.Name = "物品";
-            treeNode16.SelectedImageKey = "物品.ico";
-            treeNode16.Text = "物品";
-            treeNode17.Name = "怪物1";
-            treeNode17.Text = "怪物1";
-            treeNode17.ToolTipText = "普通怪物";
-            treeNode18.Name = "怪物2";
-            treeNode18.Text = "怪物2";
-            treeNode18.ToolTipText = "行进速度快";
-            treeNode19.Name = "怪物3";
-            treeNode19.Text = "怪物3";
-            treeNode19.ToolTipText = "可穿越炸弹";
-            treeNode20.Name = "怪物4";
-            treeNode20.Text = "怪物4";
-            treeNode20.ToolTipText = "可穿越砖块";
-            treeNode21.Name = "怪物5";
-            treeNode21.Text = "怪物5";
-            treeNode21.ToolTipText = "行进速度快，可穿越砖块和炸弹";
-            treeNode22.Name = "怪物6";
-            treeNode22.Text = "怪物6";
-            treeNode22.ToolTipText = "行进速度快，会自动复活一次";
-            treeNode23.Name = "怪物7";
-            treeNode23.Text = "怪物7";
-            treeNode23.ToolTipText = "行进速度快，可穿越砖块和炸弹，会自动复活一次";
-            treeNode24.Name = "怪物8";
-            treeNode24.Text = "怪物8";
-            treeNode24.ToolTipText = "行进速度快，炸死会掉落物品";
-            treeNode25.Name = "怪物9";
-            treeNode25.Text = "怪物9";
-            treeNode25.ToolTipText = "行进速度快，可穿越砖块和炸弹，会自动复活一次，炸死会掉落物品";
-            treeNode26.ImageKey = "怪物.ico";
-            treeNode26.Name = "怪物";
-            treeNode26.SelectedImageKey = "怪物.ico";
-            treeNode26.Text = "怪物";
+            treeNode2.Name = "出生点";
+            treeNode2.Text = "出生点";
+            treeNode3.ImageKey = "墙体_墙.ico";
+            treeNode3.Name = "墙";
+            treeNode3.SelectedImageKey = "墙体_墙.ico";
+            treeNode3.Text = "墙";
+            treeNode3.ToolTipText = "不可炸毁，不可穿越";
+            treeNode4.ImageKey = "墙体_砖块.ico";
+            treeNode4.Name = "砖";
+            treeNode4.SelectedImageKey = "墙体_砖块.ico";
+            treeNode4.Text = "砖";
+            treeNode4.ToolTipText = "可炸毁，不可穿越(通常状态)";
+            treeNode5.ImageKey = "墙体_出口.ico";
+            treeNode5.Name = "出口";
+            treeNode5.SelectedImageKey = "墙体_出口.ico";
+            treeNode5.Text = "出口";
+            treeNode6.ForeColor = System.Drawing.SystemColors.GrayText;
+            treeNode6.Name = "洼地";
+            treeNode6.Text = "洼地";
+            treeNode6.ToolTipText = "穿越时减速，不可炸毁，可以穿越";
+            treeNode7.ImageKey = "墙体.ico";
+            treeNode7.Name = "墙体";
+            treeNode7.SelectedImageKey = "墙体.ico";
+            treeNode7.Text = "墙体";
+            treeNode8.ImageKey = "物品_火焰.ico";
+            treeNode8.Name = "火焰";
+            treeNode8.SelectedImageKey = "物品_火焰.ico";
+            treeNode8.Text = "火焰";
+            treeNode8.ToolTipText = "火焰长度 + 1";
+            treeNode9.ImageKey = "物品_炸弹.ico";
+            treeNode9.Name = "炸弹";
+            treeNode9.SelectedImageKey = "物品_炸弹.ico";
+            treeNode9.Text = "炸弹";
+            treeNode9.ToolTipText = "可放置炸弹数量 + 1";
+            treeNode10.ImageKey = "物品_鞋子.ico";
+            treeNode10.Name = "鞋子";
+            treeNode10.SelectedImageKey = "物品_鞋子.ico";
+            treeNode10.Text = "鞋子";
+            treeNode10.ToolTipText = "行走速度增加";
+            treeNode11.Name = "护甲";
+            treeNode11.Text = "护甲";
+            treeNode11.ToolTipText = "可免疫一次死亡";
+            treeNode12.ImageKey = "物品_穿炸弹.ico";
+            treeNode12.Name = "穿越炸弹";
+            treeNode12.SelectedImageKey = "物品_穿炸弹.ico";
+            treeNode12.Text = "穿越炸弹";
+            treeNode12.ToolTipText = "玩家可以穿越炸弹行走";
+            treeNode13.ImageKey = "物品_穿墙.ico";
+            treeNode13.Name = "穿越墙体";
+            treeNode13.SelectedImageKey = "物品_穿墙.ico";
+            treeNode13.Text = "穿越墙体";
+            treeNode13.ToolTipText = "玩家可以穿越砖块行走";
+            treeNode14.ImageKey = "物品_遥控炸弹.ico";
+            treeNode14.Name = "遥控炸弹";
+            treeNode14.SelectedImageKey = "物品_遥控炸弹.ico";
+            treeNode14.Text = "遥控炸弹";
+            treeNode14.ToolTipText = "玩家可以在放置炸弹后按放置顺序手动引爆";
+            treeNode15.Name = "生命";
+            treeNode15.Text = "生命";
+            treeNode15.ToolTipText = "玩家生命数量 + 1";
+            treeNode16.Name = "无敌";
+            treeNode16.Text = "无敌";
+            treeNode16.ToolTipText = "玩家本局无敌状态";
+            treeNode17.ImageKey = "物品.ico";
+            treeNode17.Name = "物品";
+            treeNode17.SelectedImageKey = "物品.ico";
+            treeNode17.Text = "物品";
+            treeNode18.Name = "怪物1";
+            treeNode18.Text = "怪物1";
+            treeNode18.ToolTipText = "普通怪物";
+            treeNode19.Name = "怪物2";
+            treeNode19.Text = "怪物2";
+            treeNode19.ToolTipText = "行进速度快";
+            treeNode20.Name = "怪物3";
+            treeNode20.Text = "怪物3";
+            treeNode20.ToolTipText = "可穿越炸弹";
+            treeNode21.Name = "怪物4";
+            treeNode21.Text = "怪物4";
+            treeNode21.ToolTipText = "可穿越砖块";
+            treeNode22.Name = "怪物5";
+            treeNode22.Text = "怪物5";
+            treeNode22.ToolTipText = "行进速度快，可穿越砖块和炸弹";
+            treeNode23.Name = "怪物6";
+            treeNode23.Text = "怪物6";
+            treeNode23.ToolTipText = "行进速度快，会自动复活一次";
+            treeNode24.Name = "怪物7";
+            treeNode24.Text = "怪物7";
+            treeNode24.ToolTipText = "行进速度快，可穿越砖块和炸弹，会自动复活一次";
+            treeNode25.Name = "怪物8";
+            treeNode25.Text = "怪物8";
+            treeNode25.ToolTipText = "行进速度快，炸死会掉落物品";
+            treeNode26.Name = "怪物9";
+            treeNode26.Text = "怪物9";
+            treeNode26.ToolTipText = "行进速度快，可穿越砖块和炸弹，会自动复活一次，炸死会掉落物品";
+            treeNode27.ImageKey = "怪物.ico";
+            treeNode27.Name = "怪物";
+            treeNode27.SelectedImageKey = "怪物.ico";
+            treeNode27.Text = "怪物";
             this.tvwTools.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode1,
-            treeNode6,
-            treeNode16,
-            treeNode26});
+            treeNode7,
+            treeNode17,
+            treeNode27});
             this.tvwTools.SelectedImageIndex = 0;
             this.tvwTools.ShowNodeToolTips = true;
             this.tvwTools.Size = new System.Drawing.Size(241, 310);

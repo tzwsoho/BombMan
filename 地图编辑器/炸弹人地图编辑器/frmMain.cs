@@ -10,6 +10,17 @@ namespace 炸弹人地图编辑器
             InitializeComponent();
         }
 
+        #region 过程
+
+        private void InitMap(int nWidth, int nHeight)
+        {
+            
+        }
+
+        #endregion
+
+        #region 控件事件
+
         private void frmMain_Load(object sender, EventArgs e)
         {
             tvwTools.ExpandAll();
@@ -17,7 +28,11 @@ namespace 炸弹人地图编辑器
 
         private void miNew_Click(object sender, EventArgs e)
         {
-
+            frmAttributes frmAttr = new frmAttributes();
+            if (frmAttr.ShowDialog() == DialogResult.OK)
+            {
+                
+            }
         }
 
         private void miOpen_Click(object sender, EventArgs e)
@@ -48,5 +63,7 @@ namespace 炸弹人地图编辑器
                                    "https://github.com/tzwsoho/BombMan.git";
             MessageBox.Show(szAbout, "关于炸弹人地图编辑器 ...");
         }
+
+        #endregion
     }
 }
